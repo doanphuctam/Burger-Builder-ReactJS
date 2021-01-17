@@ -5,9 +5,9 @@ class OrderSummary extends Component {
 
     //This can be a state-less component, doesn't need to be a class-based.
     //it's class-based here because we want to run "componentDidUpdate" for debugging purpose.
-    componentDidUpdate() {
-        console.log("[OrderSummary] DidUpdate")
-    }
+    // componentDidUpdate() {
+    //     console.log("[OrderSummary] DidUpdate")
+    // }
 
     render() {
         const ingredientSummary = Object.keys(this.props.ingredients)
